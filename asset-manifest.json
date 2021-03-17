@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MyArticle-WebApplication-github.io/static/css/main.94ba3749.chunk.css",
+    "main.js": "/MyArticle-WebApplication-github.io/static/js/main.5b46def2.chunk.js",
+    "main.js.map": "/MyArticle-WebApplication-github.io/static/js/main.5b46def2.chunk.js.map",
+    "runtime-main.js": "/MyArticle-WebApplication-github.io/static/js/runtime-main.db8f008e.js",
+    "runtime-main.js.map": "/MyArticle-WebApplication-github.io/static/js/runtime-main.db8f008e.js.map",
+    "static/js/2.b9ec2cbf.chunk.js": "/MyArticle-WebApplication-github.io/static/js/2.b9ec2cbf.chunk.js",
+    "static/js/2.b9ec2cbf.chunk.js.map": "/MyArticle-WebApplication-github.io/static/js/2.b9ec2cbf.chunk.js.map",
+    "static/js/3.67613abf.chunk.js": "/MyArticle-WebApplication-github.io/static/js/3.67613abf.chunk.js",
+    "static/js/3.67613abf.chunk.js.map": "/MyArticle-WebApplication-github.io/static/js/3.67613abf.chunk.js.map",
+    "index.html": "/MyArticle-WebApplication-github.io/index.html",
+    "static/css/main.94ba3749.chunk.css.map": "/MyArticle-WebApplication-github.io/static/css/main.94ba3749.chunk.css.map",
+    "static/js/2.b9ec2cbf.chunk.js.LICENSE.txt": "/MyArticle-WebApplication-github.io/static/js/2.b9ec2cbf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db8f008e.js",
+    "static/js/2.b9ec2cbf.chunk.js",
+    "static/css/main.94ba3749.chunk.css",
+    "static/js/main.5b46def2.chunk.js"
+  ]
+}

@@ -1,0 +1,86 @@
+.Articles {
+    width: 75vw;
+    margin: 3rem auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__header {
+        width: 30rem;
+        height: 6rem;
+        background-color: $color-white;
+        border-radius: 1rem;
+        text-align: center;
+        position: relative;
+
+        &-message {
+            &::before {
+                content: 'My Article';
+                // font-size: 2.8rem;
+                letter-spacing: 3px;
+                width: 100%;
+
+                animation-name: word-fade;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-delay: 1s;
+
+                @include absCenter;
+
+            }
+        }
+    }
+    
+    &__description {
+        margin-top: 1.2rem;
+    }
+
+    &__link {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 500;
+        color: inherit;
+        padding: .3rem .5rem;
+        margin-left: .5rem;
+        border-radius: 1rem;
+        background-color: $color-secondary-light;
+
+        transition: all .2s;
+
+        &:hover {
+            transform: translateY(-3px);
+        }
+
+    }
+
+    &__container {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 3rem;
+        grid-row-gap: 3rem;
+
+        @media only screen and (max-width: $bp-large) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            grid-column-gap: 2rem;
+            grid-row-gap: 2rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    @keyframes word-fade {
+        0% {opacity:1;}
+        25% {opacity:0;}
+        50% {opacity:1; content: "By Neverrest"}
+        75% {opacity:0;}
+        100% {opacity:1; content: "My Article"}
+    }
+
+}

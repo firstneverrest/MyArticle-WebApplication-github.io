@@ -1,0 +1,8 @@
+.Footer {
+    height: 15rem;
+    position: relative;
+
+    &__text {
+       @include absCenter;
+    }
+}
